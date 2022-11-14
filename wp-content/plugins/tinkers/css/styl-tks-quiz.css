@@ -1,0 +1,16 @@
+.bounds{
+	transform-origin:center bottom;
+	animation:boundsAni 1s ease-in alternate infinite; 
+	}
+
+@keyframes boundsAni{
+	0% {
+	transform:translateY(-20%) scale(1,1);
+	}
+	80% {
+	transform:translateY(0%) scale(1,1);
+	}
+	100% {
+	transform:translateY(0%) scale(1.1,0.9);
+	}
+}

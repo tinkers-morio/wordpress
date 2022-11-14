@@ -1,0 +1,130 @@
+#corseList{
+  font-size:0.9em;  
+}
+
+.tks_progress {
+padding-left: 0;
+color:blue;
+font-size:1.1em;
+}
+ 
+.tks_progress:before {
+content: "";
+width: 100%;
+display: inline-block;
+height: 30px;
+margin-right: 0.2em;
+vertical-align: middle;
+background: #5F9EA0;
+  -webkit-animation: bar-before 1 1.8s;
+}
+
+.tks_progress_w_1:before {max-width:  1%;}
+.tks_progress_w_2:before {max-width:  2%;}
+.tks_progress_w_3:before {max-width: 3%;}
+.tks_progress_w_4:before {max-width: 4%;}
+.tks_progress_w_5:before {max-width: 5%;}
+.tks_progress_w_6:before {max-width: 6%;}
+.tks_progress_w_7:before {max-width: 7%;}
+.tks_progress_w_8:before {max-width: 8%;}
+.tks_progress_w_9:before {max-width: 9%;}
+.tks_progress_w_10:before {max-width: 10%;}
+.tks_progress_w_11:before {max-width: 11%;}
+.tks_progress_w_12:before {max-width: 12%;}
+.tks_progress_w_13:before {max-width: 13%;}
+.tks_progress_w_14:before {max-width: 14%;}
+.tks_progress_w_15:before {max-width: 15%;}
+.tks_progress_w_16:before {max-width: 16%;}
+.tks_progress_w_17:before {max-width: 17%;}
+.tks_progress_w_18:before {max-width: 18%;}
+.tks_progress_w_19:before {max-width: 19%;}
+.tks_progress_w_20:before {max-width: 20%;}
+.tks_progress_w_21:before {max-width: 21%;}
+.tks_progress_w_22:before {max-width: 22%;}
+.tks_progress_w_23:before {max-width: 23%;}
+.tks_progress_w_24:before {max-width: 24%;}
+.tks_progress_w_25:before {max-width: 25%;}
+.tks_progress_w_26:before {max-width: 26%;}
+.tks_progress_w_27:before {max-width: 27%;}
+.tks_progress_w_28:before {max-width: 28%;}
+.tks_progress_w_29:before {max-width: 29%;}
+.tks_progress_w_30:before {max-width: 30%;}
+.tks_progress_w_31:before {max-width: 31%;}
+.tks_progress_w_32:before {max-width: 32%;}
+.tks_progress_w_33:before {max-width: 33%;}
+.tks_progress_w_34:before {max-width: 34%;}
+.tks_progress_w_35:before {max-width: 35%;}
+.tks_progress_w_36:before {max-width: 36%;}
+.tks_progress_w_37:before {max-width: 37%;}
+.tks_progress_w_38:before {max-width: 38%;}
+.tks_progress_w_39:before {max-width: 39%;}
+.tks_progress_w_40:before {max-width: 40%;}
+.tks_progress_w_41:before {max-width: 41%;}
+.tks_progress_w_42:before {max-width: 42%;}
+.tks_progress_w_43:before {max-width: 43%;}
+.tks_progress_w_44:before {max-width: 44%;}
+.tks_progress_w_45:before {max-width: 45%;}
+.tks_progress_w_46:before {max-width: 46%;}
+.tks_progress_w_47:before {max-width: 47%;}
+.tks_progress_w_48:before {max-width: 48%;}
+.tks_progress_w_49:before {max-width: 49%;}
+.tks_progress_w_50:before {max-width: 50%;}
+.tks_progress_w_51:before {max-width: 51%;}
+.tks_progress_w_52:before {max-width: 52%;}
+.tks_progress_w_53:before {max-width: 53%;}
+.tks_progress_w_54:before {max-width: 54%;}
+.tks_progress_w_55:before {max-width: 55%;}
+.tks_progress_w_56:before {max-width: 56%;}
+.tks_progress_w_57:before {max-width: 57%;}
+.tks_progress_w_58:before {max-width: 58%;}
+.tks_progress_w_59:before {max-width: 59%;}
+.tks_progress_w_60:before {max-width: 60%;}
+.tks_progress_w_61:before {max-width: 61%;}
+.tks_progress_w_62:before {max-width: 62%;}
+.tks_progress_w_63:before {max-width: 63%;}
+.tks_progress_w_64:before {max-width: 64%;}
+.tks_progress_w_65:before {max-width: 65%;}
+.tks_progress_w_66:before {max-width: 66%;}
+.tks_progress_w_67:before {max-width: 67%;}
+.tks_progress_w_68:before {max-width: 68%;}
+.tks_progress_w_69:before {max-width: 69%;}
+.tks_progress_w_70:before {max-width: 70%;}
+.tks_progress_w_71:before {max-width: 71%;}
+.tks_progress_w_72:before {max-width: 72%;}
+.tks_progress_w_73:before {max-width: 73%;}
+.tks_progress_w_74:before {max-width: 74%;}
+.tks_progress_w_75:before {max-width: 75%;}
+.tks_progress_w_76:before {max-width: 76%;}
+.tks_progress_w_77:before {max-width: 77%;}
+.tks_progress_w_78:before {max-width: 78%;}
+.tks_progress_w_79:before {max-width: 79%;}
+.tks_progress_w_80:before {max-width: 80%;}
+.tks_progress_w_81:before {max-width: 81%;}
+.tks_progress_w_82:before {max-width: 82%;}
+.tks_progress_w_83:before {max-width: 83%;}
+.tks_progress_w_84:before {max-width: 84%;}
+.tks_progress_w_85:before {max-width: 85%;}
+.tks_progress_w_86:before {max-width: 86%;}
+.tks_progress_w_87:before {max-width: 87%;}
+.tks_progress_w_88:before {max-width: 88%;}
+.tks_progress_w_89:before {max-width: 89%;}
+.tks_progress_w_90:before {max-width: 90%;}
+.tks_progress_w_91:before {max-width: 91%;}
+.tks_progress_w_92:before {max-width: 92%;}
+.tks_progress_w_93:before {max-width: 93%;}
+.tks_progress_w_94:before {max-width: 94%;}
+.tks_progress_w_95:before {max-width: 95%;}
+.tks_progress_w_96:before {max-width: 96%;}
+.tks_progress_w_97:before {max-width: 97%;}
+.tks_progress_w_98:before {max-width: 98%;}
+.tks_progress_w_99:before {max-width: 99%;}
+.tks_progress_w_100:before {max-width: 100%;}
+
+@-webkit-keyframes bar-before{
+  0%{
+    width: 0px;
+  }
+  100%{
+    width: 100%;
+  }
+}

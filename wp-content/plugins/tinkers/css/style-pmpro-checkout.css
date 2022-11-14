@@ -1,0 +1,176 @@
+ul.pmpro-new-regist, ol.pmpro-new-regist {
+  padding: 0;
+  position: relative;
+}
+
+ul.pmpro-new-regist li, ol.pmpro-new-regist li {
+  color: black;
+  border-left: solid 8px orange;/*左側の線*/
+  background: whitesmoke;/*背景色*/
+  margin-bottom: 5px;/*下のバーとの余白*/
+  line-height: 1.5;
+  border-radius: 0 15px 15px 0;/*右側の角だけ丸く*/
+  padding: 0.5em;
+  list-style-type: none!important;
+}
+
+@media only screen and (min-width: 1200px) {
+  #pmpro_form h3 {
+     display: grid;
+     grid-template-columns: 2fr 1fr;
+  }
+	.pmpro_checkout .pmpro_checkout-fields .pmpro_checkout-field {
+		clear: left;
+	} 
+	.pmpro_checkout .pmpro_checkout-fields .pmpro_checkout-field label {
+		float: left;
+		margin: 0 1em 0 0;
+		text-align: right;
+		width: 200px;
+	}
+	.pmpro_checkout .pmpro_checkout-field.pmpro_captcha, .pmpro_checkout .pmpro_checkout-field-text p {
+		margin-left: 200px;
+		padding-left: 1em;
+	}
+	.pmpro_checkout .pmpro_checkout-field-text p {
+		margin-top: 0;
+	}
+	form.pmpro_form .pmpro_submit {
+		text-align: right;
+	}
+	.pmpro_btn.pmpro_btn-submit-checkout {
+		width: auto;
+	}
+	
+	/* The CSS below, is only intended to style the "First Name & Last Name" 
+	fields when using the Paid Memberships Pro "Add Name to Checkout Add On". Do not include unless using these fields. */
+	label[for="first_name"], label[for="last_name"] {
+    		clear: left !important;
+   		float: left !important;
+    		margin: 0 1em 0 0 !important;
+    		text-align: right !important;
+    		width: 200px !important;
+} 
+	
+}
+
+/*ここからTOS利用規約のCSS*/
+/*
+Based upon the "Checkbox Hack" article by Chris Coyier - https://css-tricks.com/the-checkbox-hack/
+CSS inspired by Geoffrey Crofte - https://codepen.io/GeoffreyCrofte/pen/BiHzp
+*/
+
+/* Base for label styling */
+.pmpro_checkout-fields [type="checkbox"]:not(:checked),
+.pmpro_checkout-fields [type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+.pmpro_checkout-fields [type="checkbox"]:checked + label,
+.pmpro_checkout-fields [type="checkbox"]:not(:checked) + label {
+    position: relative;
+    padding: .3em .5em .3em 1.95em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pmpro_checkout-fields [type="checkbox"]:not(:checked) + label {
+    background-color: #ff980090;
+}
+
+.pmpro_checkout-fields [type="checkbox"]:checked + label {
+  background-color: #fff;
+}
+
+/* checkbox aspect */
+.pmpro_checkout-fields [type="checkbox"]:not(:checked) + label:before,
+.pmpro_checkout-fields [type="checkbox"]:checked + label:before {
+  content: '\2713\0020';
+  color: #dadada;
+  font-size: 1.4em;
+  position: absolute;
+  top: 0.1em;
+  /* left: 0.4em; */
+  left: 0.1em;
+  width: 1.25em; height: 1.25em;
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+  font-family: 'Lucida Sans Unicode', 'Arial Unicode MS', Arial;
+  padding-left: 0.1em;
+}
+.pmpro_checkout-fields :checked + label:before {
+    border-color: #09ad7e;
+  }
+/* checked mark aspect */
+.pmpro_checkout-fields [type="checkbox"]:not(:checked) + label:after,
+.pmpro_checkout-fields [type="checkbox"]:checked + label:after {
+  content: '\2713\0020'; 
+  position: absolute;
+  top: .45em;
+  /* left: .55em; */
+  left: 0.1em;
+  font-size: 1.5em;
+  line-height: 0.8;
+  color: #09ad7e;
+  transition: all .2s;
+  font-family: 'Lucida Sans Unicode', 'Arial Unicode MS', Arial;
+  padding-left: .15em;
+  border-color: #09ad7e;
+}
+.pmpro_checkout-fields [type="checkbox"]:checked + label:after {
+    border-color: #09ad7e !important;
+}
+/* checked mark aspect changes */
+.pmpro_checkout-fields [type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+.pmpro_checkout-fields [type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+  border-color: #09ad7e;
+}
+/* accessibility */
+.pmpro_checkout-fields [type="checkbox"]:checked:focus + label:before,
+.pmpro_checkout-fields [type="checkbox"]:not(:checked):focus + label:before {
+  border: 2px dotted #09ad7e;
+}
+
+/* hover style just for information */
+.pmpro_checkout-fields label:hover:before {
+  border: 1px solid #ff9800 !important;
+  color: #ff9800 !important;
+  background-color: #fff4e4 !important;
+}
+.pmpro_checkout-fields [type="checkbox"]+label{
+  color: brown;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#tos::after{
+  content:'aaaaa';
+}
+
+.tosbtn{
+  border-radius: 15px;
+  background-color: #87CEEB;
+  padding: 8px 20px 8px;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: white;
+}
+
+.tosbtn:hover {
+  font-weight: bold;
+  color:white;
+}
+
+.tosbtn:link, .tosbtn:visited, .tosbtn:active {
+  color: white;
+}
+.fa-file-pdf::before {
+  padding-right: 0.3em;
+  margin-right: 0.3em;
+}

@@ -1,0 +1,133 @@
+/*Scratch埋め込みタグ用のCSS*/
+.scratch-box {
+  padding: 0.5em 1em;
+  margin:  0 auto;
+  margin-top: 1em;
+/*  margin: 2em 0;*/
+  color: #FFF;
+  background:	#E8EDF1;
+  border-bottom: solid 6px #3f87ce;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  width: 495px;
+}
+.scratch-box p {
+  margin: 0; 
+  padding: 0;
+}
+
+/*h埋め込みタグの下に出力するメモ用のCSS*/
+.memo-box {
+  width: 495px;
+  padding: 0.5em 1em;
+  margin:  0 auto;
+  margin-bottom: 2.5em;
+  margin-top: 0.8em;
+/*  margin: 2em 0;*/
+/*    font-weight: bold;*/
+  color: #6091d3;/*文字色*/
+  background: #FFF;
+  border: solid 1px #6091d3;/*線*/
+  border-radius: 10px;/*角の丸み*/
+}
+.memo-box p {
+  margin: 0; 
+  padding: 0;
+}
+
+/*processing埋め込みタグ用のCSS*/
+.processing-box {
+  padding: 0.5em 1em;
+  /*margin-top:50px;*/
+  margin: 2em 0;
+  color: #FFF;
+  background:	#E8EDF1;
+  border-bottom: solid 6px #3f87ce;
+  box-shadow: 0 3px 6px rgba(146, 105, 105, 0.25);
+  border-radius: 9px;
+  display: inline-block;
+  /*width: 495px;*/
+}
+.processing-box p {
+  margin: 0.5em; 
+  padding: 0;
+  
+}
+
+.processing-button-div {
+  vertical-align: inherit;display: inline-block;margin:0.2em;
+}
+
+.processing-box button {
+  border-radius:5px;
+  box-shadow:2px 2px 2px #555;
+  background-color:#00a2e8;
+  border-style: none;
+}
+
+
+code {
+  font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  font-size: 14px;
+  line-height: 1.4;
+  overflow: auto;
+  resize: horizontal;
+}
+.prettyprint ol.linenums > li {
+  list-style-type: decimal; 
+}
+.prettyprint {
+  background-color: #ffffff;
+}
+
+.btn-square {
+  display: inline-block;
+  padding: 1em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+.point-box {
+vertical-align:top;
+font-size: 23px;
+display:inline-block;
+    position: relative;
+    margin: 2em 0;
+    /*margin-top:50px;*/
+	  /*margin-bottom:30px;*/
+    /*margin: 2em 0;*/
+margin-right: 30px;
+margin-left: 20px;
+    /*margin-right: auto;*/
+    padding: 0.5em 1em;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+    width: 500px;
+    height: 400px;
+}
+.point-box .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 25px;
+    background: #FFF;
+    color: #95ccff;
+    font-weight: bold;
+}
+.point-box p {
+    margin-top: 0; 
+    padding: 0;
+}
+
